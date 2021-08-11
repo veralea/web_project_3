@@ -1,0 +1,8 @@
+.footer {
+  width: 92.5vw;
+  padding: 11.5vh 0 3vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}

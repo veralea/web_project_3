@@ -1,0 +1,16 @@
+.footer__link {
+  margin-right: 18px;
+  font-size: 16px;
+  line-height: 1.125;
+  font-weight: 400;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer__link:hover {
+  opacity: .8;
+}
+
+.footer__link:last-of-type {
+  margin-right: calc(92.5vw - 376px);
+}

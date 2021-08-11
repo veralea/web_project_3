@@ -1,0 +1,15 @@
+.cover__overlay {
+  width: 92.5vw;
+  height: 92.5vh;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: .3;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.cover:hover .cover__overlay {
+  opacity: .8;
+}

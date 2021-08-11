@@ -1,0 +1,9 @@
+.place__url-heading {
+  width: inherit;
+  font-size: 12px;
+  line-height: 1.7;
+  font-weight: 400;
+  text-align: left;
+  display: block;
+  color: #AAAAAA;
+}

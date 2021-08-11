@@ -1,0 +1,7 @@
+.place__image {
+  width: 35.9375vw;
+  height: 35.9375vw;
+  margin-right: 3.75vw;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
