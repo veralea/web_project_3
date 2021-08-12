@@ -7,8 +7,14 @@
   text-align: center;
   position: relative;
   z-index: 2;
-  margin-bottom: 4vh;
   color: #FFFDFD;
   text-decoration: none;
   background: none;
+}
+
+@media screen and (max-width: 767px) {
+  .cover__title {
+    font-size: 32px;
+    line-height: calc(1em +3px);
+  }
 }

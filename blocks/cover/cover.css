@@ -1,6 +1,6 @@
 .cover {
   width: 92.5vw;
-  height: 92.5vh;
+  height: 57.82vw;
   margin: 92px auto 0;
   position: relative;
   display: flex;
@@ -16,7 +16,7 @@
   text-decoration: none;
 }
 
-@media screen and (max-width: 1279px) and (min-width: 768px) {
+@media screen and (max-width: 1279px) {
   .cover {
     width: 100vw;
     height: 62.5vw;

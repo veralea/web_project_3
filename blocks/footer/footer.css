@@ -21,3 +21,14 @@
     padding: 88px 0 24px ;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .footer {
+    flex-direction: column;
+    width: 51.6vw;
+    text-align: left;
+    padding: 64px auto 24px 16px;
+    margin: 0;
+    align-items: flex-start;
+  }
+}

@@ -14,3 +14,12 @@
     margin: 32px auto 56px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .lead__subtitle {
+    width: 288px;
+    font-size: 16px;
+    line-height: 1.25;
+    margin: 16px auto 40px;
+  }
+}

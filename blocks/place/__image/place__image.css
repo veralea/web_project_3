@@ -20,3 +20,11 @@
     margin-right: 28px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .place__image {
+    width: 100vw;
+    height: 100vw;
+    margin: 0 0 32px;
+  }
+}

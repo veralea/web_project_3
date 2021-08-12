@@ -12,3 +12,10 @@
     max-width: 456px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .place__website {
+    width: 90vw;
+    margin: 0 auto 12px;
+  }
+}

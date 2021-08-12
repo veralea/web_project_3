@@ -15,3 +15,11 @@
     margin: 88px auto;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .intro {
+    width: 90vw;
+    margin: 64px auto;
+  }
+}
+

@@ -8,6 +8,7 @@
   line-height: calc(1em + 4px);
   font-weight: 900;
   margin: 0 3.125vw 48px 0;
+  text-align: left;
 }
 
 @media screen and (max-width: 1279px) and (min-width: 1024px) {
@@ -21,5 +22,14 @@
     width: 44.27vw;
     font-size: 42px;
     margin: 0 28px 48px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__title {
+    width: 90vw;
+    font-size: 32px;
+    line-height: calc(1em + 3px);
+    margin: 0 auto 30px;
   }
 }
