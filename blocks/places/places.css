@@ -5,3 +5,9 @@
   margin: 0 auto;
   list-style: none;
 }
+
+@media screen and (max-width: 1279px) and (min-width: 1024px) {
+  .places {
+    width: 90.625vw;
+  }
+}

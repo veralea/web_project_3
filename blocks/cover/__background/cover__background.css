@@ -8,3 +8,9 @@
   object-fit: cover;
   object-position: 50% 50%;
 }
+
+@media screen and (max-width: 1279px) and (min-width: 1024px) {
+  .cover__background {
+    height: 62.5vw;
+  }
+}

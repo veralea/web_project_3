@@ -1,7 +1,15 @@
 .place__image {
   width: 35.9375vw;
   height: 35.9375vw;
-  margin-right: 3.75vw;
+  margin-right: 3.125vw;
   object-fit: cover;
   object-position: 50% 50%;
+}
+
+@media screen and (max-width: 1279px) and (min-width: 1024px) {
+  .place__image {
+    width: 42.9688vw;
+    height: 42.9688vw;
+  }
+
 }

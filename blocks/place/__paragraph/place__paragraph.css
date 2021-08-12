@@ -12,3 +12,9 @@
   margin-bottom: 0;
   line-height: 1.44;
 }
+
+@media screen and (max-width: 1279px) and (min-width: 1024px) {
+  .place__paragraph {
+    width: 44.53vw;
+  }
+}
