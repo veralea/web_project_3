@@ -11,3 +11,9 @@
     width: 90.625vw;
   }
 }
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .places {
+    width: 90vw;
+  }
+}

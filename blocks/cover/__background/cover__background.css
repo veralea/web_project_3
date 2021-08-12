@@ -14,3 +14,10 @@
     height: 62.5vw;
   }
 }
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .cover__background {
+    width: 100vw;
+    height: 62.5vw;
+  }
+}

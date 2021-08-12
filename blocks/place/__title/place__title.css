@@ -15,3 +15,11 @@
     width: 42.9688vw;
   }
 }
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .place__title {
+    width: 44.27vw;
+    font-size: 42px;
+    margin: 0 28px 48px 0;
+  }
+}

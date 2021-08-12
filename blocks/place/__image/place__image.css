@@ -11,5 +11,12 @@
     width: 42.9688vw;
     height: 42.9688vw;
   }
+}
 
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .place__image {
+    width: 44.27vw;
+    height: 44.27vw;
+    margin-right: 28px;
+  }
 }

@@ -20,3 +20,13 @@
     margin: 92px auto;
   }
 }
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .photo-grid {
+    grid-gap: 16px;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(6, auto);
+    width: 90vw;
+    margin: 88px auto;
+  }
+}

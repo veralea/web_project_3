@@ -18,3 +18,13 @@
     width: 44.53vw;
   }
 }
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .place__paragraph {
+    font-size: 16px;
+  }
+
+  .place__paragraph:last-of-type {
+    line-height: 1.625;
+  }
+}
