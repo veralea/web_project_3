@@ -22,7 +22,6 @@
 @media screen and (max-width: 767px) {
   .logo {
     width: 156px;
-    /* height: 36px; */
     margin-right: calc(90vw - 235px);
   }
 }

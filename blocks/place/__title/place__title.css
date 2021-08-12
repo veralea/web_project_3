@@ -29,7 +29,7 @@
   .place__title {
     width: 90vw;
     font-size: 32px;
-    line-height: calc(1em + 3px);
+    line-height: 1.09;
     margin: 0 auto 30px;
   }
 }
