@@ -1,11 +1,19 @@
 .intro__text {
+  margin-block-start: 0;
+  margin-block-end: 0;
   font-size: 24px;
   line-height: 1.42;
   font-weight: 400;
 }
 
-.intro__text:nth-of-type(2) {
+.intro__text:nth-of-type(2n) {
   font-size: 16px;
   line-height: 1.63;
-  margin: 4vh 0 4.1vh;
+  margin: 32px 0 33px;
+}
+
+@media screen and (max-width: 767px) and (min-width: 320px) {
+  .intro__text {
+    line-height: 1.25;
+  }
 }

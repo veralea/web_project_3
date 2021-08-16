@@ -10,5 +10,5 @@ Functionality of this project:
 4. Tegs according with HTML5
 5. Functionality of CSS3 (calc() function)
 
-Link to Git Page of this project:
-https://veralea.github.io/web_project_3/
+
+[Link to Git Page of this project:](https://veralea.github.io/web_project_3/)
