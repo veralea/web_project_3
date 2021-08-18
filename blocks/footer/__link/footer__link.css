@@ -11,22 +11,6 @@
   opacity: .8;
 }
 
-.footer__link:last-of-type {
-  margin-right: calc(92.5vw - 376px);
-}
-
-@media screen and (max-width: 1279px) and (min-width: 1024px) {
-  .footer__link:last-of-type {
-    margin-right: calc(90.625vw - 376px);
-  }
-}
-
-@media screen and (max-width: 1023px) and (min-width: 768px) {
-  .footer__link:last-of-type {
-    margin-right: calc(93.75vw - 376px);
-  }
-}
-
 @media screen and (max-width: 767px) and (min-width: 320px) {
   .footer__link {
     margin-bottom: 32px;

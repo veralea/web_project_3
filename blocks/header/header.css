@@ -1,25 +1,26 @@
 .header {
-  width: 76.875vw;
+  width: 76.875%;
   height: max-content;
   margin: 0 auto;
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
 @media screen and (max-width: 1279px) and (min-width: 1024px) {
   .header {
-    width: 90.625vw;
+    width: 90.625%;
   }
 }
 
 @media screen and (max-width: 1023px) and (min-width: 768px) {
   .header {
-    width: 93.75vw;
+    width: 93.75%;
   }
 }
 
 @media screen and (max-width: 767px) and (min-width: 320px) {
   .header {
-    width: 90vw;
+    width: 90%;
   }
 }

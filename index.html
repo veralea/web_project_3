@@ -9,9 +9,11 @@
 <body>
   <div class="page">
     <header class="header">
-      <div class="logo"></div>
-      <a class="header__lang-link" href="#" target="_blank">En</a>
-      <a class="header__lang-link" href="#" target="_blank">Es</a>
+      <img class="logo" src="./images/logo.svg">
+      <nav>
+        <a class="header__lang-link" href="#" target="_blank">En</a>
+        <a class="header__lang-link" href="#" target="_blank">Es</a>
+      </nav>
     </header>
     <main>
       <section class="lead">
@@ -179,15 +181,19 @@
         </li>
       </ul>
       <a class="cover" href="https://www.nps.gov/nr/travel/route66/maps66.html" target="_blank">
-        <img class="cover__overlay" src="images/__overlay.jpg" alt="grey color">
-        <h2 class="cover__title">Historic Route 66</h2>
-        <p class="cover__subtitle">The Main Street of America from Santa Monica, Cal. to Chicago, Ill.</p>
+        <img class="cover__background" src="./images/__background.jpg" alt="route 66">
+        <div class="cover__overlay">
+          <h2 class="cover__title">Historic Route 66</h2>
+          <p class="cover__subtitle">The Main Street of America from Santa Monica, Cal. to Chicago, Ill.</p>
+        </div>
       </a>
     </main>
     <footer class="footer">
-      <a class="footer__link" href="https://yandex.com/maps" target="_blank">Maps</a>
-      <a class="footer__link" href="https://yandex.com/weather/moscow" target="_blank">Weather</a>
-      <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Calendar</a>
+      <nav>
+        <a class="footer__link" href="https://yandex.com/maps" target="_blank">Maps</a>
+        <a class="footer__link" href="https://yandex.com/weather/moscow" target="_blank">Weather</a>
+        <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Calendar</a>
+      </nav>
       <p class="footer__copyright">&copy; 2021 Vera Poletyuk</p>
     </footer>
   </div>
