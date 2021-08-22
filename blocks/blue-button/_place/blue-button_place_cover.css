@@ -1,0 +1,19 @@
+.blue-button_place_cover {
+  margin-top: 33px;
+  margin-right: 8px;
+}
+
+@media screen and (max-width: 1279px) and (min-width: 768px) {
+  .blue-button_place_cover {
+    margin-right: 12px;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 320px) {
+  .blue-button_place_cover {
+    margin-top: 19px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 6px;
+  }
+}

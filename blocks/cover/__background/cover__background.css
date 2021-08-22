@@ -2,3 +2,15 @@
   width: 100%;
   z-index: 0;
 }
+
+@media screen and (max-width: 1279px) and (min-width: 768px) {
+  .cover__background {
+    height: 97.135vw;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 320px) {
+  .cover__background {
+    height: 79.375vw;
+  }
+}

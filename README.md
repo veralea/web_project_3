@@ -9,6 +9,7 @@ Functionality of this project:
 3. Bem-metodology for names of classes
 4. Tegs according with HTML5
 5. Functionality of CSS3 (calc() function)
+6. For a more accurate layout the PixelPerfect extension for Chrome tool was used
 
-
-[Link to Git Page of this project:](https://veralea.github.io/web_project_3/)
+Link to Git Page of this project:
+[https://veralea.github.io/web_project_3/](https://veralea.github.io/web_project_3/)

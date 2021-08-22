@@ -1,0 +1,24 @@
+.blue-button {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  background-color: #0278FE;
+  height: max-content;
+  font-size: 18px;
+  line-height: 1.21;
+  font-weight: 600;
+  margin-top: 0;
+  padding: 13px 20px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.blue-button:hover {
+  background-color: #0063D2;
+}
+
+@media screen and (max-width: 767px) and (min-width: 320px) {
+  .blue-button {
+    padding: 13px 40px;
+  }
+}
+

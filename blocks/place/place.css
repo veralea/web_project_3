@@ -1,34 +1,48 @@
 .place {
   width: 100%;
   display: grid;
-  grid-gap: 40px 48px;
+  grid-gap: 47px 40px;
   grid-template-columns: 1fr 1.05fr;
-  grid-template-rows: repeat(2, auto);
-  margin: 88px 0 0;
+  grid-template-rows: max-content max-content auto;
+  grid-template-areas:
+  'title author'
+  'image text'
+  'button text';
+  margin: 80px 0 0;
 }
 
-.place:first-of-type {
+.place:last-of-type {
   margin-top: 0;
 }
 
-@media screen and (max-width: 1279px) and (min-width: 1024px) {
+@media screen and (max-width: 1279px) and (min-width: 768px) {
   .place {
-    grid-gap: 32px 48px;
+    grid-gap: 48px 28px;
     grid-template-columns: 1fr 1.03fr;
+    margin: 60px 0 0;
   }
+  .place:nth-of-type(1) {
+    margin: 77px 0 0;
+  }
+
+  .place:nth-of-type(3) {
+    margin: 77px 0 130px;
+  }
+
 }
 
-@media screen and (max-width: 1023px) and (min-width: 768px) {
-  .place {
-    grid-gap: 28px 48px;
-    grid-template-columns: 1fr 1.03fr;
-  }
-}
 
 @media screen and (max-width: 767px) and (min-width: 320px) {
   .place {
-    grid-gap: 30px 30px;
+    grid-gap: 30px;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, auto);
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas:
+    'title'
+    'author'
+    'image'
+    'text'
+    'button';
+    margin: 47px 0 0;
   }
 }

@@ -1,0 +1,13 @@
+.place__button {
+  grid-area: button;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 767px) and (min-width: 320px) {
+  .place__button {
+    align-items: center;
+  }
+ }
