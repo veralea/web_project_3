@@ -4,7 +4,7 @@
   object-position: 50% 50%;
 }
 
-@media screen and (max-width: 767px) and (min-width: 320px) {
+@media screen and (max-width: 767px) {
   .logo {
     max-width: 200px;
   }

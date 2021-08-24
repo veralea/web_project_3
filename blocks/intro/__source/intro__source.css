@@ -1,0 +1,23 @@
+.intro__source {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  width: 70%;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.42;
+  text-align: right;
+  margin-top: 10px;
+  margin-bottom: 32px;
+}
+
+@media screen and (max-width: 1279px) {
+  .intro__source {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro__source {
+    line-height: 1.27;
+  }
+}

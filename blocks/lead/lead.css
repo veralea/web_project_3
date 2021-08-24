@@ -7,16 +7,15 @@
   width: 76.875%;
 }
 
-@media screen and (max-width: 1279px) and (min-width: 768px) {
+@media screen and (max-width: 1279px) {
   .lead {
     margin: 88px auto 58px;
     width: 100%;
   }
 }
 
-@media screen and (max-width: 767px) and (min-width: 320px) {
+@media screen and (max-width: 767px) {
   .lead {
     margin: 50px 0 64px;
-    width: 100%;
   }
 }

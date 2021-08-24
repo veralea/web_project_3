@@ -4,6 +4,7 @@
   font-weight: 400;
   color: inherit;
   display: block;
+  text-decoration: none;
 }
 
 .place__link:hover {
