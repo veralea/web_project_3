@@ -12,7 +12,6 @@
 @media screen and (max-width: 767px) {
   .place__button {
     width: 90%;
-    margin: auto;
-    /* align-items: center; */
+    margin: 0 5%;
   }
 }
